@@ -33,7 +33,7 @@ package mfslyca;
 	import org.apache.commons.io.FileUtils;
 
 
-	public class ratecard  extends DataProvider4lycaMFS {
+	public class ratecard  extends  dataproviderforview  {
 		  private WebDriver driver;
 		  private Map<String, Object> vars;
 		  JavascriptExecutor js;
