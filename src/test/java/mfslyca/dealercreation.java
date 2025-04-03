@@ -141,6 +141,8 @@ public class dealercreation {
 
 	   // Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 
+	    WebElement alertElement2 = driver.findElement(By.xpath("//*[@id='register']"));	    
+	    alertElement2.click();
 	  }
 	}
 

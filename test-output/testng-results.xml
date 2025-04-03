@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-25T14:24:00 IST" name="Default suite" finished-at="2025-03-25T14:24:36 IST" duration-ms="36580">
+  <suite started-at="2025-04-02T15:45:11 IST" name="Default suite" finished-at="2025-04-02T15:45:43 IST" duration-ms="32419">
     <groups>
     </groups>
-    <test started-at="2025-03-25T14:24:00 IST" name="Default test" finished-at="2025-03-25T14:24:36 IST" duration-ms="36580">
-      <class name="mfslyca.dede">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mfslyca.dede@1b66c0fb]" started-at="2025-03-25T14:24:00 IST" name="setUp" finished-at="2025-03-25T14:24:09 IST" duration-ms="9297" status="PASS">
+    <test started-at="2025-04-02T15:45:11 IST" name="Default test" finished-at="2025-04-02T15:45:43 IST" duration-ms="32419">
+      <class name="wmc.assign">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:wmc.assign@38145825]" started-at="2025-04-02T15:45:11 IST" name="setUp" finished-at="2025-04-02T15:45:17 IST" duration-ms="6478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="didid()[pri:0, instance:mfslyca.dede@1b66c0fb]" started-at="2025-03-25T14:24:09 IST" name="didid" finished-at="2025-03-25T14:24:36 IST" duration-ms="27207" status="PASS">
+        <test-method signature="idid()[pri:0, instance:wmc.assign@38145825]" started-at="2025-04-02T15:45:17 IST" name="idid" finished-at="2025-04-02T15:45:43 IST" duration-ms="25888" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- didid -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mfslyca.dede@1b66c0fb]" started-at="2025-03-25T14:24:36 IST" name="tearDown" finished-at="2025-03-25T14:24:36 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- idid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wmc.assign@38145825]" started-at="2025-04-02T15:45:43 IST" name="tearDown" finished-at="2025-04-02T15:45:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mfslyca.dede -->
+      </class> <!-- wmc.assign -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
