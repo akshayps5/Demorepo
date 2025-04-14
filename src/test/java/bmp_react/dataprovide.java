@@ -9,7 +9,7 @@ public class dataprovide {
 		//driver.findElement(By.xpath("//*[@id=\"tsslogin-form_password\"]")).sendKeys("Admin123");
 		//driver.findElement(By.xpath("//button[@type='submit']")).click();
 		public static final String GUIuser="admin";
-		public static final String GUIpw="Admin123";
+		public static final String GUIpw="Admin@123";
 		public static final String username = "Xavier";
 		public static final String password = "Xavier1234";
 		public static final String barrednumber = "94716163";

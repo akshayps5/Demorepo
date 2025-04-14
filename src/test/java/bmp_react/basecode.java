@@ -120,6 +120,7 @@ public class basecode {
     
         @Test(priority = 2)  
         public void clientcreate() throws InterruptedException {  
+        	driver.findElement(By.xpath("/html/body/div/div/div[1]/section/div/div/div[2]/div/div[2]/ul/li[3]/a")).click();
         driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[4]/*[name()='svg'][1]")).click();
         driver.findElement(By.xpath("//*[@id=\"TSSGUI_InputTextFieldStyle\"]")).sendKeys("Xavier");
 
@@ -158,7 +159,7 @@ public class basecode {
         driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[2]/div[1]/button[1]")).click();
         driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[6]/button[1]")).click();
                
-        Thread.sleep(4000);
+        Thread.sleep(1000);
         
        driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[9]/div[1]/div[1]/label[1]")).click();
        driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/section[1]/div[1]/div[2]/div[1]/div[9]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/fieldset[1]/div[1]/i[1]")).click();
@@ -170,7 +171,7 @@ public class basecode {
     }
 
     
-	@Test (priority = 3, enabled = false)
+	@Test (priority = 3, enabled = true)
 	public void barsys() throws InterruptedException
 	{
 		Thread.sleep(2000);
@@ -213,7 +214,7 @@ public class basecode {
 		
 	}
 	//======================================================================================================================================
-	@Test (priority = 4 , enabled = false)
+	@Test (priority = 4 , enabled = true)
 	public void barclt() throws InterruptedException
 	{
 		driver.findElement(By.xpath("(//i[@title='Site Map'])[1]")).click();

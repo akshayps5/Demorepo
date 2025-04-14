@@ -43,7 +43,7 @@ import net.sourceforge.tess4j.ITesseract;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 
-public class ETEdealercreation extends Dataprovider4LycaMFS {
+public class ETEdealercreation extends dataproviderforview{
 
 	private WebDriver driver;
 	private Map<String, Object> vars;
@@ -531,12 +531,13 @@ public class ETEdealercreation extends Dataprovider4LycaMFS {
 
 						} catch (SQLException e) {
 							e.printStackTrace();
-						}
+						}}
 
 			
 						@AfterClass
-						public void logOut() {
+						public void logOut1() {
 						driver.quit();
 						}
 			}
-}
+
+
