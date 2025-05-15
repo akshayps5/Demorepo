@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mfslyca.dealercreation">
+      <class name="imlyca.monika">
         <methods>
-          <include name="didid"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="freeMsisdn1"/>
         </methods>
-      </class> <!-- mfslyca.dealercreation -->
+      </class> <!-- imlyca.monika -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
