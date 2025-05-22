@@ -113,7 +113,11 @@ public class dealercreation {
 	    driver.findElement(By.xpath("/html/body/div[2]/aside[1]/section/ul/ul/li[3]/ul/li[1]/a/font/span")).click();
 	    driver.findElement(By.id("msisdnTypeId")).click();
 	    Thread.sleep(1000);
-	    driver.findElement(By.id("msisdnTypeId")).sendKeys("9765434576");
+	   // driver.findElement(By.id("msisdnTypeId")).sendKeys("9765434576");
+	    String uniqueMsisdn = "97654" + System.currentTimeMillis() % 1000000;
+	    System.out.println("Generated MSISDN: " + uniqueMsisdn);
+	    driver.findElement(By.id("msisdnTypeId")).sendKeys(uniqueMsisdn);
+
 	    Thread.sleep(1000);
 	    driver.findElement(By.id("btnSearch")).click();
 	    Thread.sleep(3000);
@@ -141,6 +145,8 @@ public class dealercreation {
 
 	   // Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
 
+	    WebElement alertElement2 = driver.findElement(By.xpath("//*[@id='register']"));	    
+	    alertElement2.click();
 	  }
 	}
 

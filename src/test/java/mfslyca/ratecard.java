@@ -24,7 +24,6 @@ package mfslyca;
 	import java.util.HashMap;
 	import java.util.Map;
 	import java.util.Set;
-
 	import java.sql.Connection;  // ✅ Correct for JDBC
 	import net.sourceforge.tess4j.ITesseract;
 	import net.sourceforge.tess4j.Tesseract;
@@ -33,7 +32,7 @@ package mfslyca;
 	import org.apache.commons.io.FileUtils;
 
 
-	public class ratecard  extends  dataproviderforview  {
+	public class ratecard  extends  dataproviderforview {
 		  private WebDriver driver;
 		  private Map<String, Object> vars;
 		  JavascriptExecutor js;

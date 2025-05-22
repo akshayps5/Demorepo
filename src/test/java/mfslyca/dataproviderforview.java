@@ -41,8 +41,13 @@ package mfslyca;
 					"Indira"
 				}
 			};	
+		case "CommissionRuleCreation":
+			return new Object[][] {
+				{
+					"Bottle" , "50", "20", "20", "10"
+				}
+			};
 		}	
 			return null;
 		}
 	}
-
