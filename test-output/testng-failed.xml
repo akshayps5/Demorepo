@@ -3,13 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="imlyca.monika">
+      <class name="snd.USSDtransfer">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="freeMsisdn1"/>
+          <include name="ussd_transfer_notifcation"/>
+          <include name="Ussdprepaidtransfer_Statement"/>
+          <include name="Ussdtransferpost_Statement"/>
+          <include name="apiprepaidTest"/>
+          <include name="ussd_prepaidtransfer_tracker"/>
+          <include name="ussd_transfertracker"/>
+          <include name="setupDriver"/>
+          <include name="apipostpaidTest1"/>
+          <include name="ussd_transfer_ledger"/>
+          <include name="ussd_prepaidtransfer_ledger"/>
         </methods>
-      </class> <!-- imlyca.monika -->
+      </class> <!-- snd.USSDtransfer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

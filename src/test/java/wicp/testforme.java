@@ -48,16 +48,20 @@ import java.util.Date;
 	  }
 	  @AfterClass
 	  public void tearDown() {
-	    driver.quit();
+	   // driver.quit();
 	  }
 	  @Test
 	  public void testcase() throws InterruptedException {
-	    driver.get("https://10.0.6.46:8442/pcc/welcome/jsp/login.jsp");
+	    driver.get("https://10.0.6.46:8442/pcc");
 	//    driver.manage().window().setSize(new Dimension(1280, 672));
+	    driver.manage().window().maximize();
+	    driver.findElement(By.xpath("//*[@id=\"details-button\"]")).click();
+	    driver.findElement(By.xpath("//*[@id=\"proceed-link\"]")).click();
+	    Thread.sleep(1000);
 	    driver.findElement(By.id("username")).click();
 	    Thread.sleep(1000);
-	    driver.findElement(By.id("username")).sendKeys("admin");
-	    driver.findElement(By.name("password")).sendKeys("Tayana25");
+	    driver.findElement(By.id("username")).sendKeys("sayan");
+	    driver.findElement(By.name("password")).sendKeys("Admin123");
 	    Thread.sleep(1000);
 	    driver.findElement(By.id("login")).click();
 	    Thread.sleep(1000);
